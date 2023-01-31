@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d2022fe-ea97-4def-9bb4-a53717d86172" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Komis_Samochodowy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lista_samochodow.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lista_samochodow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logowanie.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logowanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edycja_Danych.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edycja_Danych.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zapomniales_Hasla.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zapomniales_Hasla.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JXpSqSyCmqLMHy4g6BMHHd0i4Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "293",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Demas/Desktop/Dokumenty/Dominik Moskal/Komis_Samochodowy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Logowanie">
+    <configuration name="Lista_samochodow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lista_samochodow" />
+      <module name="Komis_Samochodowy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Logowanie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Logowanie" />
+      <module name="Komis_Samochodowy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Menu" />
+      <module name="Komis_Samochodowy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zapomniales_Hasla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zapomniales_Hasla" />
+      <module name="Komis_Samochodowy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Logowanie" />
+        <item itemvalue="Application.zapomniales_Hasla" />
+        <item itemvalue="Application.Menu" />
+        <item itemvalue="Application.Lista_samochodow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d2022fe-ea97-4def-9bb4-a53717d86172" name="Changes" comment="" />
+      <created>1672234286779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672234286779</updated>
+      <workItem from="1672234287853" duration="13217000" />
+      <workItem from="1672772602705" duration="1524000" />
+      <workItem from="1673260990157" duration="893000" />
+      <workItem from="1673884901000" duration="1872000" />
+      <workItem from="1675162369145" duration="5319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
