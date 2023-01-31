@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edycja_Danych">
-  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Dodaj_samochod">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="495"/>
+      <xy x="20" y="20" width="500" height="535"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -24,7 +24,7 @@
             <properties/>
             <border type="none" title="Marka"/>
             <children>
-              <component id="d908a" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+              <component id="d908a" class="javax.swing.JTextField" binding="markaTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -42,7 +42,7 @@
             <properties/>
             <border type="none" title="Model"/>
             <children>
-              <component id="27faf" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+              <component id="27faf" class="javax.swing.JTextField" binding="modelTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -60,7 +60,7 @@
             <properties/>
             <border type="none" title="Rocznik"/>
             <children>
-              <component id="ba178" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+              <component id="ba178" class="javax.swing.JTextField" binding="rocznikTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -78,7 +78,7 @@
             <properties/>
             <border type="none" title="Numer VIN"/>
             <children>
-              <component id="bf2a8" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+              <component id="bf2a8" class="javax.swing.JTextField" binding="numerVINTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -96,7 +96,7 @@
             <properties/>
             <border type="none" title="Kolor"/>
             <children>
-              <component id="9e171" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+              <component id="9e171" class="javax.swing.JTextField" binding="kolorTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -140,7 +140,7 @@
             <properties/>
             <border type="none" title="Cena"/>
             <children>
-              <component id="cf6ff" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+              <component id="cf6ff" class="javax.swing.JTextField" binding="cenaTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -150,12 +150,12 @@
               </component>
             </children>
           </grid>
-          <component id="63eba" class="javax.swing.JButton" binding="zapiszZmianyButton" default-binding="true">
+          <component id="63eba" class="javax.swing.JButton" binding="dodajSamochodButton">
             <constraints>
-              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="2" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Zapisz zmiany"/>
+              <text value="Dodaj samochód"/>
             </properties>
           </component>
         </children>

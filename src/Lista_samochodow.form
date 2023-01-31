@@ -24,7 +24,7 @@
             <properties/>
             <border type="none" title="Marka"/>
             <children>
-              <component id="953e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+              <component id="953e" class="javax.swing.JTextField" binding="markaTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -42,7 +42,7 @@
             <properties/>
             <border type="none" title="Model"/>
             <children>
-              <component id="f6b7a" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+              <component id="f6b7a" class="javax.swing.JTextField" binding="modelTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -60,7 +60,7 @@
             <properties/>
             <border type="none" title="Rocznik"/>
             <children>
-              <component id="76511" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+              <component id="76511" class="javax.swing.JTextField" binding="rocznikTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -78,7 +78,7 @@
             <properties/>
             <border type="none" title="Numer VIN"/>
             <children>
-              <component id="35c89" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+              <component id="35c89" class="javax.swing.JTextField" binding="numerVINTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -96,7 +96,7 @@
             <properties/>
             <border type="none" title="Kolor"/>
             <children>
-              <component id="961fc" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+              <component id="961fc" class="javax.swing.JTextField" binding="kolorTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -140,7 +140,7 @@
             <properties/>
             <border type="none" title="Cena"/>
             <children>
-              <component id="8a0ce" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+              <component id="8a0ce" class="javax.swing.JTextField" binding="cenaTextField">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -158,12 +158,12 @@
               <text value="Zapisz zmiany"/>
             </properties>
           </component>
-          <component id="548d3" class="javax.swing.JButton" binding="edytujDanePojazuButton" default-binding="true">
+          <component id="548d3" class="javax.swing.JButton" binding="dodajSamochodButton">
             <constraints>
               <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Edytuj dane pojazu"/>
+              <text value="Dodaj samochód"/>
             </properties>
           </component>
         </children>
@@ -192,7 +192,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="58e4b" class="javax.swing.JList" binding="list1" default-binding="true">
+              <component id="39d99" class="javax.swing.JList" binding="listaSamochodow">
                 <constraints/>
                 <properties/>
               </component>
