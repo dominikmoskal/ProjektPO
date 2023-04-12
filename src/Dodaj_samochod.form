@@ -162,4 +162,10 @@
       </grid>
     </children>
   </grid>
+  <buttonGroups>
+    <group name="czyWypadkowy">
+      <member id="3d6ed"/>
+      <member id="cdbe7"/>
+    </group>
+  </buttonGroups>
 </form>

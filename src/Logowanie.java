@@ -49,7 +49,6 @@ public class Logowanie extends JFrame {
                 Zapomniales_hasla zapomnialesHasla = new Zapomniales_hasla();
                 zapomnialesHasla.setLocationRelativeTo(null);
                 zapomnialesHasla.setVisible(true);
-
             }
         });
     }

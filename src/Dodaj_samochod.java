@@ -37,12 +37,11 @@ public class Dodaj_samochod extends JFrame{
                 String kolor = kolorTextField.getText();
                 String cena = cenaTextField.getText();
                 boolean czyWypadkowy = TAKCheckBox.isSelected();
-
-                Samochod samochod = new Samochod(marka, model, rocznik, numerVIN, kolor, cena, czyWypadkowy);
-                Lista_samochodow.dane.add(samochod);
+                boolean czySprzedany = false;
+                Samochod samochod = new Samochod(marka, model, rocznik, numerVIN, kolor, cena, czyWypadkowy,czySprzedany);
+                Lista_samochodow.lSamochodow.add(samochod);
                // Lista_samochodow.tymczasowaListaSamochodow.addElement(model);
-                Lista_samochodow.getTymczasowaListaSamochodow().addElement(samochod.Model);
-
+                Lista_samochodow.getTymczasowaListaSamochodow().addElement(samochod.Marka+" "+samochod.Model);
                 JOptionPane.showMessageDialog(null, "Samochód dodany pomyślnie");
                 dispose();
             }

@@ -1,9 +1,9 @@
 public class Samochod {
 
     String Marka, Model, Rocznik, numerVIN, kolor, cena;
-    Boolean czyWypadkowy;
+    Boolean czyWypadkowy, czySprzedany;
 
-    public Samochod(String Marka, String Model, String Rocznik, String numerVIN, String kolor, String cena, Boolean czyWypadkowy){
+    public Samochod(String Marka, String Model, String Rocznik, String numerVIN, String kolor, String cena, Boolean czyWypadkowy, Boolean czySprzedany){
         this.Marka = Marka;
         this.Model = Model;
         this.Rocznik = Rocznik;
@@ -11,6 +11,7 @@ public class Samochod {
         this.kolor = kolor;
         this.cena = cena;
         this.czyWypadkowy = czyWypadkowy;
+        this.czySprzedany = czySprzedany;
     }
 
     public String getMarka() {
@@ -67,5 +68,13 @@ public class Samochod {
 
     public void setCzyWypadkowy(Boolean czyWypadkowy) {
         this.czyWypadkowy = czyWypadkowy;
+    }
+
+    public Boolean getCzySprzedany() {
+        return czySprzedany;
+    }
+
+    public void setCzySprzedany(Boolean czySprzedany) {
+        this.czySprzedany = czySprzedany;
     }
 }

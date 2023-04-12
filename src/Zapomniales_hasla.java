@@ -34,13 +34,12 @@ public class Zapomniales_hasla extends JFrame {
                 String kod = new String(kodPasswordField.getPassword());  //Arrays.toString(kodPasswordField.getPassword());
 
                 if (login.equals(poprawnyLogin) && kod.equals(poprawnyKod)) {
-                    JOptionPane.showMessageDialog(Zapomniales_hasla.this, "Twoje hasło to: admin", "Informacja", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(Zapomniales_hasla.this, "Twoje hasło to: "+loginTextField.getText()+"", "Informacja", JOptionPane.INFORMATION_MESSAGE);
                     Zapomniales_hasla.this.setVisible(false);
                 }
                 else JOptionPane.showMessageDialog(Zapomniales_hasla.this, "Błędne dane", "Błąd", JOptionPane.ERROR_MESSAGE);
             }
         });
-
         powrotButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
